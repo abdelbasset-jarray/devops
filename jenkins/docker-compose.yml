@@ -3,7 +3,7 @@ version: '2'
 # password: bitnami
 services:
   jenkins:
-      image: 'bitnami/jenkins:2'
+      image: 'bitnami/jenkins:latest'
   
     restart: always
     ports:
